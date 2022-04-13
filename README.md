@@ -21,13 +21,13 @@ Both lots 1 and lot 2 have a variance lower than 100 lbs per square inch. Howeve
  The first t test that we performed produced a p-value of .06 so we can assume that there is no significance in comparing the lots against the mean PSI of 1500.
  <img src ="resources/t_test_all.png" title ="T Test">
 Next we performed a t-test on lot one that produced a p-value of 1 so we can assume that it is no significant in comparing this lots PSI against the mean PSI of 1500.
-<img src="resources/t_test1" title="Lot 1 T">
+<img src="resources/t_test1.png" title="Lot 1 T">
 Lot 2 in comparison has a p-value of .6072 so we can assume that there is no significance in comparing this lots PSI against the mean of 1500.
-<img src="resources/t_test2" title="Lot 2 T">
+<img src="resources/t_test2.png" title="Lot 2 T">
 
 Lot 3 in comparison has a p-value of .04 so we can asssume that there is significance in comparing this lots PSI against the mean of 1500.
 
-<img src="resources/t_test3" title="Lot 3 T">
+<img src="resources/t_test3.png" title="Lot 3 T">
 
 ## Study Design:MechCar vs Competition
 The metric that is of interest for my customer is safety rating. With this we will compare vehicle_length, and vehicle_weight with that of the safety rating. The null hypothese would be that vehicle weight and length have no affect on safety rating, whereas the alternative is that vehicle weight and length directly correlate to safety rating. I would probably use 1 or two sample t-tests. This would be in order to compare the statistical likelihood that the mean of safety rating is correlated with a vehicle weight or length or not. The data that we need to perform this is obviously the vehicle length, the vehicle weight, and the manufacturers safety rating.
